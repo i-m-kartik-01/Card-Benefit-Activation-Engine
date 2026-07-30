@@ -1,0 +1,162 @@
+{
+  "amex_platinum": {
+    "cardName": "The Platinum Card from American Express",
+    "annualFee": 895,
+    "benefits": {
+      "purchaseProtection": {
+        "enabled": true,
+        "windowDays": 90,
+        "claimWindowDays": 90,
+        "perItemCap": 10000,
+        "annualCap": 50000,
+        "eligibleMcc": [
+          "retail",
+          "electronics",
+          "department_store",
+          "furniture"
+        ],
+        "requiredProof": [
+          "Original Receipt",
+          "Card Statement",
+          "Police Report (if theft)"
+        ],
+        "nextAction": "Upload receipt and card statement.",
+        "priority": 1,
+        "description": "Protects eligible purchases against theft or accidental damage.",
+        "estimatedProcessingDays": 14
+      },
+
+      "returnProtection": {
+        "enabled": true,
+        "windowDays": 90,
+        "claimWindowDays": 90,
+        "perItemCap": 300,
+        "annualCap": 1000,
+        "excludedCategories": [
+          "live_plants",
+          "firearms",
+          "seasonal_items",
+          "jewelry"
+        ],
+        "requiredProof": [
+          "Original Receipt",
+          "Proof Merchant Declined Return"
+        ],
+        "nextAction": "Attempt merchant return before filing claim.",
+        "priority": 2,
+        "description": "Allows eligible returns when the merchant refuses.",
+        "estimatedProcessingDays": 10
+      },
+
+      "extendedWarranty": {
+        "enabled": true,
+        "extraYears": 1,
+        "maxOriginalWarrantyYears": 5,
+        "perItemCap": 10000,
+        "annualCap": 50000,
+        "excludedCategories": [
+          "motor_vehicles"
+        ],
+        "requiredProof": [
+          "Receipt",
+          "Manufacturer Warranty",
+          "Card Statement"
+        ],
+        "nextAction": "Keep invoice and manufacturer's warranty.",
+        "priority": 3,
+        "description": "Extends eligible manufacturer warranties.",
+        "estimatedProcessingDays": 14
+      },
+
+      "tripDelay": {
+        "enabled": true,
+        "minDelayHours": 6,
+        "perTripCap": 500,
+        "maxClaimsPer12Months": 2,
+        "eligibleMcc": [
+          "airline",
+          "cruise",
+          "train"
+        ],
+        "qualifyingReasons": [
+          "weather",
+          "carrier_equipment_failure",
+          "hijacking_terrorism"
+        ],
+        "requiredProof": [
+          "Boarding Pass",
+          "Delay Confirmation",
+          "Receipts for Expenses"
+        ],
+        "nextAction": "Collect delay certificate from the carrier.",
+        "priority": 4,
+        "description": "Reimburses eligible expenses due to covered travel delays.",
+        "estimatedProcessingDays": 21
+      },
+
+      "tripCancellationInterruption": {
+        "enabled": true,
+        "perTripCap": 10000,
+        "per12MonthCap": 20000,
+        "qualifyingReasons": [
+          "weather",
+          "illness_injury",
+          "stolen_passport",
+          "terrorism",
+          "jury_duty"
+        ],
+        "requiredProof": [
+          "Cancellation Confirmation",
+          "Medical Certificate (if applicable)",
+          "Travel Itinerary",
+          "Receipts"
+        ],
+        "nextAction": "Submit cancellation proof and itinerary.",
+        "priority": 5,
+        "description": "Reimburses eligible non-refundable travel expenses.",
+        "estimatedProcessingDays": 21
+      },
+
+      "baggageInsurance": {
+        "enabled": true,
+        "checkedCap": 2000,
+        "carryOnCombinedCap": 3000,
+        "aggregatePerTripCap": 3000,
+        "highRiskItemCap": 1000,
+        "secondaryToCarrier": true,
+        "requiredProof": [
+          "PIR Report",
+          "Boarding Pass",
+          "Baggage Tags",
+          "Receipts"
+        ],
+        "nextAction": "File with airline before submitting Amex claim.",
+        "priority": 6,
+        "description": "Provides baggage loss or damage reimbursement.",
+        "estimatedProcessingDays": 30
+      },
+
+      "carRentalLossDamage": {
+        "enabled": true,
+        "coverageType": "secondary",
+        "standardCap": 75000,
+        "premiumUpgradeCap": 100000,
+        "requiresDecliningRentalCdw": false,
+        "excludedVehicleTypes": [
+          "luxury",
+          "high_performance",
+          "exotic"
+        ],
+        "requiredProof": [
+          "Rental Agreement",
+          "Damage Report",
+          "Repair Estimate"
+        ],
+        "nextAction": "Obtain damage report from rental company.",
+        "priority": 7,
+        "description": "Covers eligible rental vehicle damage or theft.",
+        "estimatedProcessingDays": 30
+      }
+    }
+  }
+}

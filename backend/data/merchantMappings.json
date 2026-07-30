@@ -1,0 +1,26 @@
+{
+  "Amazon": {
+    "category": "retail"
+  },
+  "Apple": {
+    "category": "electronics"
+  },
+  "Best Buy": {
+    "category": "electronics"
+  },
+  "IKEA": {
+    "category": "furniture"
+  },
+  "Delta Air Lines": {
+    "category": "airline"
+  },
+  "United Airlines": {
+    "category": "airline"
+  },
+  "Amtrak": {
+    "category": "train"
+  },
+  "Royal Caribbean": {
+    "category": "cruise"
+  }
+}

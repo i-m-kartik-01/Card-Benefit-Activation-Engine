@@ -1,0 +1,73 @@
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+    margin-bottom:30px;
+
+}
+
+.dashboard-middle{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:25px;
+
+    margin-bottom:30px;
+
+}
+
+.chart-card,
+.benefit-card-dashboard,
+.dashboard-table{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.chart-card h2,
+.benefit-card-dashboard h2,
+.dashboard-table h2{
+
+    margin-bottom:20px;
+
+    color:#002663;
+
+}
+
+@media(max-width:1000px){
+
+.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.dashboard-middle{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:650px){
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

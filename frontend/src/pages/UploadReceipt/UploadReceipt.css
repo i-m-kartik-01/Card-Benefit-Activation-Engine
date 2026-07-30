@@ -1,0 +1,68 @@
+.upload-btn{
+
+    margin-top:20px;
+
+    background:#006FCF;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.upload-btn:hover{
+
+    background:#0055aa;
+
+}
+
+.result-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:25px;
+
+    margin-top:35px;
+
+}
+
+.benefits-section{
+
+    margin-top:40px;
+
+}
+
+.claims-section{
+
+    margin-top:40px;
+
+}
+
+.benefits-section h2,
+.claims-section h2{
+
+    margin-bottom:20px;
+
+    color:#002663;
+
+}
+
+@media(max-width:900px){
+
+.result-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

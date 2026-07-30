@@ -1,0 +1,37 @@
+.transaction-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+.transaction-table th{
+
+    background:#006FCF;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+.transaction-table td{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.transaction-table tr:hover{
+
+    background:#f7fbff;
+
+}

@@ -1,0 +1,25 @@
+.stats-card{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.stats-icon{
+
+    font-size:40px;
+
+    color:#006FCF;
+
+}

@@ -1,0 +1,57 @@
+.not-found-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+
+    background:#f5f7fb;
+
+}
+
+.error-code{
+
+    font-size:120px;
+
+    font-weight:700;
+
+    color:#006FCF;
+
+    margin:0;
+
+    line-height:1;
+
+}
+
+.not-found-container h2{
+
+    margin-top:20px;
+
+    font-size:36px;
+
+    color:#002663;
+
+}
+
+.not-found-container p{
+
+    max-width:500px;
+
+    margin:20px 0 35px;
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.6;
+
+}

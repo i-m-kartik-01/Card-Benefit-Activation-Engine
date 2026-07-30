@@ -1,0 +1,29 @@
+.documents-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.document-row{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    margin-top:18px;
+
+}
+
+.check{
+
+    color:#28a745;
+
+}

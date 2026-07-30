@@ -1,0 +1,28 @@
+.navbar{
+    height:70px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.navbar-title{
+    font-size:22px;
+    font-weight:600;
+    color:#002663;
+}
+
+.navbar-right{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.nav-icon,
+.profile-icon{
+    font-size:24px;
+    color:#006FCF;
+    cursor:pointer;
+}

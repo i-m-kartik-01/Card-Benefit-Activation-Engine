@@ -1,0 +1,59 @@
+.upload-box{
+
+    background:white;
+
+    border:2px dashed #006FCF;
+
+    border-radius:15px;
+
+    padding:60px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.upload-box:hover{
+
+    background:#f5f9ff;
+
+}
+
+.upload-box input{
+
+    display:none;
+
+}
+
+.upload-icon{
+
+    font-size:60px;
+
+    color:#006FCF;
+
+    margin-bottom:15px;
+
+}
+
+.upload-box h2{
+
+    color:#002663;
+
+}
+
+.upload-box p{
+
+    color:#666;
+
+}
+
+.upload-box span{
+
+    font-size:14px;
+
+    color:#999;
+
+}

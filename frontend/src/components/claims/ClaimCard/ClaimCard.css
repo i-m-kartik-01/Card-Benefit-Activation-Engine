@@ -1,0 +1,93 @@
+.claim-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.claim-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.claim-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    margin:25px 0;
+
+    gap:20px;
+
+}
+
+.claim-grid div{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+}
+
+.claim-card button{
+
+    width:100%;
+
+    background:#006FCF;
+
+    color:white;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.status{
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    color:white;
+
+}
+
+.status.ready{
+
+    background:#28a745;
+
+}
+
+.status.pending{
+
+    background:#ffc107;
+
+    color:black;
+
+}
+
+.status.submitted{
+
+    background:#006FCF;
+
+}

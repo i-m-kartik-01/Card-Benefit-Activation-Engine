@@ -1,0 +1,47 @@
+.timeline{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin:30px 0;
+
+}
+
+.timeline-step{
+
+    flex:1;
+
+    text-align:center;
+
+}
+
+.timeline-circle{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:#ddd;
+
+    color:white;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:10px;
+
+}
+
+.active .timeline-circle{
+
+    background:#006FCF;
+
+}

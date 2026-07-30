@@ -1,0 +1,27 @@
+.eligible{
+
+    background:#28a745;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}
+
+.not-eligible{
+
+    background:#dc3545;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}

@@ -1,0 +1,55 @@
+.stepper{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:40px;
+
+    flex-wrap:wrap;
+
+}
+
+.step{
+
+    text-align:center;
+
+    flex:1;
+
+}
+
+.circle{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    background:#ccc;
+
+    color:white;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:8px;
+
+}
+
+.active .circle{
+
+    background:#006FCF;
+
+}
+
+.step span{
+
+    font-size:13px;
+
+}

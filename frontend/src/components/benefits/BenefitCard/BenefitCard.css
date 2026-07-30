@@ -1,0 +1,85 @@
+.benefit-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    margin-bottom:25px;
+
+}
+
+.benefit-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.benefit-reason{
+
+    color:#666;
+
+    margin:20px 0;
+
+}
+
+.benefit-details{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
+.benefit-details div{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:5px;
+
+}
+
+.documents{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.documents ul{
+
+    padding-left:20px;
+
+}
+
+.benefit-card button{
+
+    margin-top:25px;
+
+    background:#006FCF;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}

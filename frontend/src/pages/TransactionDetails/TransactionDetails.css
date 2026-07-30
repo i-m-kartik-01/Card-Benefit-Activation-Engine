@@ -1,0 +1,43 @@
+.top-section{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+    margin-bottom:35px;
+
+}
+
+.section{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:30px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.section h2{
+
+    color:#002663;
+
+    margin-bottom:20px;
+
+}
+
+@media(max-width:900px){
+
+.top-section{
+
+grid-template-columns:1fr;
+
+}
+
+}

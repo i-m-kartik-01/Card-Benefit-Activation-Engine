@@ -2,7 +2,7 @@ import Transaction from "../models/transactionModel.js";
 import receiptParser from "../services/receiptParser.js";
 import transactionAnalyzer from "../services/transactionAnalyzer.js";
 import validateTransaction from "../services/transactionValidator.js";
-import RulesEngine from "../services/RulesEngine.js";
+import RulesEngine from "../services/rulesEngine.js";
 import claimGenerator from "../services/claimGenerator.js";
 
 export const uploadTransaction = async (req, res) => {

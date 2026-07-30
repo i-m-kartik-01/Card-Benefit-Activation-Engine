@@ -1,4 +1,4 @@
-import cardTerms from "../data/cardTerms.json" assert { type: "json" };
+import cardTerms from "../data/cardTerms.json" with { type: "json" };
 
 class RulesEngine {
 

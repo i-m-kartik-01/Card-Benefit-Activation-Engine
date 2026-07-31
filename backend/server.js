@@ -21,7 +21,7 @@ const app = express();
 app.use(cors({
     origin: [
         "http://localhost:3001",
-        "https://your-frontend.onrender.com"
+        "https://card-benefit-activation-engine-frontend.onrender.com"
     ],
     credentials: true
 }));

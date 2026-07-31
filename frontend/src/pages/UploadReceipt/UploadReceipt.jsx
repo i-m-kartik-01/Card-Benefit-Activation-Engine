@@ -44,7 +44,7 @@ function UploadReceipt() {
 
             const response = await axios.post(
 
-                "http://localhost:5001/api/transactions/upload",
+                `${process.env.REACT_APP_API_URL}/api/transactions/upload`,
 
                 formData,
 

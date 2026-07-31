@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import morgan from "morgan";
-import authRoutes from "./routes/auth.js";
+// import authRoutes from "./routes/auth.js";
 import connectDB from "./config/db.js";
 
 import transactionRoutes from "./routes/transactionRoutes.js";
@@ -47,7 +47,7 @@ app.use("/api/claims", claimRoutes);
 app.use("/api/benefits", benefitRoutes);
 
 app.use("/api/pubsub", pubsubRoutes);
-app.use("/auth",authRoutes);
+// app.use("/auth",authRoutes);
 // -----------------------------
 // 404 Handler
 // -----------------------------
